@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Help</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+   <div class="main-content">
+        {{>header}}
+        <p>database connected</p>
+
+        <p>Use this site to get your data!</p>
+
+        <form>
+            <input id="data1" placeholder="Location">
+            <input id="data2" placeholder="Location">
+            <input id="data3" placeholder="email">
+            <input id="data4" placeholder="password">
+
+
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+
+    
+    {{>footer}}
+    <script src="/js/datab.js"></script>
+</body>
+
+</html>
